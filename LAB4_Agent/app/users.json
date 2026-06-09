@@ -1,0 +1,58 @@
+{
+  "장원영": {
+    "user_id": "EMP-1001",
+    "name": "장원영",
+    "title": "AI Engineer",
+    "address": "서울특별시 강남구 테헤란로 101",
+    "time_off_balance": 15
+  },
+  "카리나": {
+    "user_id": "EMP-1002",
+    "name": "카리나",
+    "title": "Data Engineer",
+    "address": "서울특별시 서초구 서초대로 202",
+    "time_off_balance": 12
+  },
+  "안유진": {
+    "user_id": "EMP-1003",
+    "name": "안유진",
+    "title": "HR Specialist",
+    "address": "서울특별시 송파구 올림픽로 303",
+    "time_off_balance": 18
+  },
+  "민지": {
+    "user_id": "EMP-1004",
+    "name": "민지",
+    "title": "Product Manager",
+    "address": "서울특별시 마포구 월드컵북로 404",
+    "time_off_balance": 10
+  },
+  "해린": {
+    "user_id": "EMP-1005",
+    "name": "해린",
+    "title": "Software Engineer",
+    "address": "서울특별시 영등포구 국제금융로 505",
+    "time_off_balance": 20
+  },
+  "지민": {
+    "user_id": "EMP-1006",
+    "name": "지민",
+    "title": "Senior AI Engineer",
+    "address": "경기도 성남시 분당구 판교역로 606",
+    "time_off_balance": 14
+  },
+  "정국": {
+    "user_id": "EMP-1007",
+    "name": "정국",
+    "title": "Platform Engineer",
+    "address": "서울특별시 강서구 마곡중앙로 707",
+    "time_off_balance": 11
+  },
+  "차은우": {
+    "user_id": "EMP-1008",
+    "name": "차은우",
+    "title": "UX Designer",
+    "address": "서울특별시 용산구 한강대로 808",
+    "time_off_balance": 16
+  }
+}

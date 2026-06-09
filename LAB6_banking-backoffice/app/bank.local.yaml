@@ -1,0 +1,133 @@
+openapi: 3.0.3
+info:
+  title: GFM Bank Unified Tool APIs
+  version: 1.0.0
+  description: Unified API combining multiple banking services
+servers:
+  - url: http://localhost:8000
+    description: Local FastAPI Endpoint
+paths:
+  /iban-transfer:
+    post:
+      summary: Transfer money between IBANs
+      description: Takes source IBAN, destination IBAN, and amount as input and performs a money transfer.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                source_iban:
+                  type: string
+                  example: DE89320895326389021994
+                destination_iban:
+                  type: string
+                  example: DE89929842579913662103
+                amount_eur:
+                  type: number
+                  example: 100.5
+                username:
+                  type: string
+                  default: teller
+                password:
+                  type: string
+                  default: teller123
+              required:
+                - source_iban
+                - destination_iban
+                - amount_eur
+      responses:
+        '200':
+          description: Transfer completed successfully
+        '401':
+          description: Authentication failed
+        '403':
+          description: Insufficient funds
+        '404':
+          description: IBAN not found
+  /balance-inquiry:
+    post:
+      summary: Check account balance by IBAN
+      description: Takes an IBAN and returns current balance and recent transactions.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                iban:
+                  type: string
+                  example: DE89320895326389021994
+                username:
+                  type: string
+                  default: teller
+                password:
+                  type: string
+                  default: teller123
+              required:
+                - iban
+      responses:
+        '200':
+          description: Balance inquiry successful
+        '401':
+          description: Authentication failed
+        '404':
+          description: IBAN not found
+  /fee-reversal:
+    post:
+      summary: Process a fee reversal to an account
+      description: Takes an IBAN and amount, then posts a fee reversal transaction.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                iban:
+                  type: string
+                  example: DE89320895326389021994
+                amount_eur:
+                  type: number
+                  example: 50
+              required:
+                - iban
+                - amount_eur
+      responses:
+        '200':
+          description: Fee reversal processed successfully
+        '400':
+          description: Invalid input
+        '404':
+          description: IBAN not found
+  /approve-overdraft:
+    post:
+      summary: Approve or modify overdraft limit for an account
+      description: Takes an IBAN and overdraft amount, then sets the specified overdraft limit.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                iban:
+                  type: string
+                  example: DE89320895326389021994
+                overdraft_limit_eur:
+                  type: number
+                  minimum: 0
+                  maximum: 10000
+                  example: 5000
+              required:
+                - iban
+                - overdraft_limit_eur
+      responses:
+        '200':
+          description: Overdraft limit updated successfully
+        '400':
+          description: Invalid input
+        '404':
+          description: IBAN not found
