@@ -40,10 +40,10 @@
 8. **스크롤을 내려 Upload files를 클릭**하고 Next 버튼을 누릅니다.
    <img width="1000" alt="image" src="img/step8.png">
    
-8. 다운받은 **LAB3 Knowledge 폴더** 내에 PDF 파일을 업로드 하고, 
+9. 다운받은 **LAB3 Knowledge 폴더** 내에 PDF 파일을 업로드 하고, 
 
    <img width="1000" alt="image" src="img/step9.png">
-9. **Name 필드**에 아래와 같이 삽입한 후 Next를 클릭합니다. :
+10. **Name 필드**에 아래와 같이 삽입한 후 Next를 클릭합니다. :
    <img width="1000" alt="image" src="img/step10.png">
    
    ```
@@ -71,7 +71,7 @@
       ```
 
 
-10. **동작(Behavior)** 섹션으로 스크롤을 내립니다. 아래 지침을 **지침(Instructions)** 필드에 삽입합니다: 
+11. **동작(Behavior)** 섹션으로 스크롤을 내립니다. 아래 지침을 **지침(Instructions)** 필드에 삽입합니다: 
    <img width="1000" alt="image" src="img/step11.png">
    
       ```
@@ -106,6 +106,6 @@
       * 에이전트를 지원되는 채널에 연결해 실제 환경에서 응답을 평가합니다.
       * 목표나 프로세스 변화에 맞춰 지침을 정기적으로 업데이트합니다.
 
-11. **10번까지의 모든 과정이 완료**됐으면, Agent는 마케팅 정보와 동작 규칙을 가지게 됩니다. 
+12. **11번까지의 모든 과정이 완료**됐으면, Agent는 마케팅 정보와 동작 규칙을 가지게 됩니다. 
 이제 화면 우측 채팅을 활용해 Agent를 테스트할 수 있습니다.
    <img width="1000" alt="image" src="img/step12.png">
