@@ -170,13 +170,10 @@ AI 기반 시스템에서는:
 
   ![Add Tool](./backoffice_ag_imgs/i3.png)
 
-- **Import** 클릭
+- **Open API** 클릭
 
   ![Import file](./backoffice_ag_imgs/i4.png)
 
-- **Import from file** 클릭
-
-  ![Import from file](./backoffice_ag_imgs/i16.png)
 
 - 강사가 제공한 `bank.yaml` API 스펙 파일 업로드
 
@@ -294,13 +291,11 @@ AI 기반 시스템에서는:
 
   ![Add Tool](./teller_ag_imgs/i6.png)
 
-- **Import** 클릭
+- **OpenAPI** 클릭
 
   ![Import](./teller_ag_imgs/i7.png)
 
-- **Import from file** 클릭
 
-  ![Import from file](./teller_ag_imgs/i21.png)
 
 - 강사로부터 제공받은 `bank.yaml` API 사양 파일을 업로드합니다.  
   파일 업로드가 완료되면 **Next** 선택.
@@ -319,7 +314,7 @@ AI 기반 시스템에서는:
 
   ![Uploaded tools](./teller_ag_imgs/i16.png)
 
-- **Add from local instance** 클릭
+- **Local instance** 클릭
 
   ![Uploaded tools](./teller_ag_imgs/i17.png)
 
@@ -407,7 +402,7 @@ AI 기반 시스템에서는:
 
 #### GFM 상품 정보 에이전트 생성
 
-- 햄버거 메뉴 클릭 후, **Build** -> **Agent Builder** 선택
+- 햄버거 메뉴 클릭 후, **Build** 선택
 
   ![Agent Builder](./images/i3.png)
 
@@ -445,15 +440,18 @@ AI 기반 시스템에서는:
 
   ![Select model](./prod_info_ag_imgs/i14.png)
 
-- **Knowledge source** 섹션에서 **Choose knowledge** 클릭
+- **Knowledge** 섹션에서 **Add source** 클릭
 
   ![Choose knowledge](./prod_info_ag_imgs/i13.png)
+
+  **New Knowledge** 버튼 클릭
+  ![New Knowledge](./prod_info_ag_imgs/i15.png)
 
 - **Upload files** 클릭 후 **Next** 클릭
 
   ![Upload Files](./prod_info_ag_imgs/i12.png)
 
-- 강사가 제공한 아래 문서 업로드 후 **Next** 클릭
+- 강사가 제공한 **Knowledge(RAG) 폴더** 아래 문서 업로드 후 **Next** 클릭
 
   ```
   list-of-prices-and-Services.pdf
@@ -463,10 +461,14 @@ AI 기반 시스템에서는:
   
   ![Upload Documents](./prod_info_ag_imgs/i11.png)
 
-- **Description** 섹션에 다음 내용 추가 후 **Save** 클릭
-
+- **Knowledge** 섹션에 다음 내용 추가 후 **Save** 클릭
 
   ```
+    Name : 사용자이름_ProductInfo
+  ```
+  ```
+  Description :
+
   이 종합 지식 베이스에는 GFM Bank의 상품, 서비스, 수수료, 운영 절차에 대한 상세 정보가 다음 범주로 정리되어 있습니다.
   
   1. 개인 뱅킹 계좌
@@ -608,7 +610,7 @@ AI 기반 시스템에서는:
 
 #### GFM Bank Orchestrator Agent 생성
 
-- 햄버거 메뉴에서 **Build** -> **Agent Builder**를 클릭합니다.
+- 햄버거 메뉴에서 **Build**를 클릭합니다.
 
   ![Agent Builder](./images/i3.png)
 

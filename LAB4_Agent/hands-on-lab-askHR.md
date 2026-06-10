@@ -41,7 +41,7 @@
 
  - "watsonx Orchestrate 시작" 버튼을 클릭합니다.
 
-   <img width="1000" alt="image" src="../env/assets/cloud-wxo.png">
+   <img width="1000" alt="image" src="hands-on-lab-assets/step1_v1.png">
 
  - watsonx Orchestrate에 오신 것을 환영합니다. 햄버거 메뉴를 열고 **빌드** 옆의 아래쪽 화살표를 클릭합니다. 그런 다음 **에이전트 빌더**를 클릭합니다:
 
@@ -105,11 +105,15 @@
    <img width="1000" alt="image" src="hands-on-lab-assets/step_5_v2.png">
    
 1. 화면을 아래로 스크롤하여 **지식** 섹션으로 이동합니다.
-   **지식 선택**을 클릭합니다.
+   **지식 추가**를 클릭합니다.
    
    <img width="1000" alt="image" src="hands-on-lab-assets/step_6_v3.png">
-  
-1. **파일 업로드**를 선택합니다.
+
+1. **New knowledge**를 클릭합니다.
+
+   <img width="1000" alt="image" src="hands-on-lab-assets/hr_step_v1.png">
+
+1. 화면을 아래로 스크롤하여 **파일 업로드**를 선택합니다.
    **다음**을 클릭합니다.
    
    <img width="1000" alt="image" src="hands-on-lab-assets/step_7_v3.png">
@@ -119,12 +123,19 @@
 
    <img width="1000" alt="image" src="hands-on-lab-assets/step_8_v3.png">
 
-1. 다음 설명을 **설명** 섹션에 복사한 다음 **저장**을 클릭합니다:
+1. 이름을 지정하고, 다음 설명을 **설명** 섹션에 복사한 다음 **저장**을 클릭합니다:
 
-   ```
-     이 지식 베이스는 회사의 직원 복리후생과 관련된 내용을 포함합니다.  
-     여기에는 육아휴직, 반려동물 정책, 유연 근무제, 학자금 대출 상환 지원 등이 포함됩니다.
-   ```
+      <img width="1000" alt="image" src="hands-on-lab-assets/step_8.1_v3.png">
+
+   - **이름** :
+      ```
+      자기이름_AskHR
+      ```
+   - **설명** :   
+      ```
+      이 지식 베이스는 회사의 직원 복리후생과 관련된 내용을 포함합니다.  
+      여기에는 육아휴직, 반려동물 정책, 유연 근무제, 학자금 대출 상환 지원 등이 포함됩니다.
+      ```
    
    - **설명(Descriptions) 이해하기**  
       에이전트의 지식 베이스에 문서를 업로드할 때는 명확하고 유익한 설명을 포함하세요. 이렇게 하면 에이전트가 데이터를 이해하고 해석하는 데 도움이 되며, 응답 시 해당 지식을 활용할지 아니면 툴 호출이나 대규모 언어 모델(LLM) 사용과 같은 다른 방법에 의존할지를 결정할 수 있습니다.
@@ -140,19 +151,15 @@
       키워드: 휴가 정책, 원격 근무, 복리후생, 성과 평가, 온보딩
    ```
    
-   <img width="1000" alt="image" src="hands-on-lab-assets/step_8.1_v3.png">
 
 1. **도구 세트** 섹션으로 스크롤을 내립니다. **도구 추가 +**를 클릭합니다:
 
    <img width="1000" alt="image" src="hands-on-lab-assets/step_9_v3.png">
 
-1. **Add from file or MCP server**를 선택합니다(화면 이미지와 명칭이 다를수 있습니다.):
+1. **Open API**를 선택합니다(화면 이미지와 명칭이 다를수 있습니다.):
 
    <img width="1000" alt="image" src="hands-on-lab-assets/step_10_v3.png">
 
-1. **파일에서 가져오기**를 선택합니다:
-
-   <img width="1000" alt="image" src="hands-on-lab-assets/step_11_v3.png">
 
 1. 강사가 제공한 **hr.yaml** 파일을 드래그 앤 드롭하거나 클릭하여 업로드한 다음 **다음**을 클릭합니다:
 
