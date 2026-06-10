@@ -22,8 +22,7 @@
 | HR (인사 관리) | Workday, SAP SuccessFactors, IBM 자체 HR 템플릿 | 직원 정보 조회, <br>휴가 신청 및 승인 프로세스, <br>채용 프로세스 자동화 |
 | Sales & CRM (영업) | Salesforce, HubSpot | 고객 데이터 조회 및 생성,<br>영업 기회 파이프라인 업데이트 |
 | It & Support (고객 지원) | ServiceNow, Zendesk, Jira | 서비스 데스크 티켓 생성,<br>장애 상황 전파,<br>이슈 트래킹 상태 변경 |
-| Procurement (조달/ERP) | SAP, AWS 관련 일부 관리 도구 | 구매 주문서(PO) 상태 확인,
-<br>벤더 정보 동기화 |
+| Procurement (조달/ERP) | SAP, AWS 관련 일부 관리 도구 | 구매 주문서(PO) 상태 확인,<br>벤더 정보 동기화 |
 
 ### Local Instance
 
