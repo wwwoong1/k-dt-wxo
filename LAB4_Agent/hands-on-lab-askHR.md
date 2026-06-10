@@ -37,7 +37,7 @@
 
  - IBM Cloud(cloud.ibm.com)에 로그인합니다. 왼쪽 상단의 햄버거 메뉴로 이동한 다음 리소스 목록으로 이동합니다. AI/Machine Learning 섹션을 엽니다. **watsonx Orchestrate** 서비스가 표시되면 클릭하여 엽니다.
 
-  <img width="1000" alt="image" src="../env/cloud-resource-list.png">
+   <img width="1000" alt="image" src="../env/cloud-resource-list.png">
 
  - "watsonx Orchestrate 시작" 버튼을 클릭합니다.
 
