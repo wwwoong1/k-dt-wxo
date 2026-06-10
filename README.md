@@ -79,3 +79,63 @@ Assistant Builder를 활용하여 보다 빠르고 직관적으로 Assistant를 
 - watsonx Orchestrate의 기본 기능을 이해하고 활용할 수 있다.
 - 실무형 시나리오를 바탕으로 Agent를 직접 설계하고 구성할 수 있다.
 - Assistant Builder 및 Main-Sub 구조를 활용한 확장형 Assistant 구성이 가능하다.
+
+## 기존 강의 목차
+
+### 1. AI Agent 설명
+
+
+
+### 2. WatsonX Orchestrate 기능 설명
+
+
+
+### 3. HR 도메인 기반 Custom tool calling + RAG 기반 답변 생성 Agent
+
+
+
+### 4. 창고 관리 자동화 1:N Agent 형식의 Multi Agent 구축 + 외부 Agent 연동 + ReAct 방식 적용
+
+
+
+### 5. 은행 업무 자동화. RAG 기반 답변 생성 + 특정 분기 발생 시, 권한에 따른 작동 분리
+
+
+
+### 6. 계좌 개설 문의 처리 어시스턴트. LLM의 판단이 아닌 사전 rule 기반 분기 설정 + 특정 조건에서 인간 상담원 연결 (HITL)
+
+
+
+### 7. Build → Test → Deploy 흐름의 실습 진행 및 트러블슈팅
+
+## 수정한 강의 목차
+
+
+### 1. WatsonX Orchestrate 기능 설명
+- Orchestrate란 무엇인가?
+- WatsonX Orchestrate 기본 기능 설명
+
+### 2. HR 도메인 기반 Custom tool calling + RAG 기반 답변 생성 Agent
+- Orchestrate에서의 Tool Calling 설정
+- Knowledge 등록을 통한 RAG 구축
+
+
+### 3. 창고 관리 자동화 1:N Agent 형식의 Multi Agent 구축 + 외부 Agent 연동 + ReAct 방식 적용
+- Multi Agent 구조 설계
+- ReAct 방식을 통한 추론 능력 강화
+
+
+### 4. 은행 업무 자동화. RAG 기반 답변 생성 + 특정 분기 발생 시, 권한에 따른 작동 분리
+- 권한 기반 분기 로직 설계
+- 외부 에이전트 연동
+
+
+### 5. 계좌 개설 문의 처리 어시스턴트. LLM의 판단이 아닌 사전 rule 기반 분기 설정 + 특정 조건에서 인간 상담원 연결 (HITL)
+- rule 기반 분기 설정
+- Human in the loop (HITL) 구현
+
+
+### 6. Build → Test → Deploy 흐름의 실습 진행 및 트러블슈팅
+- WatsonX Orchestrate에서의 Agent 구축 전 단계 실습
+- 실습 중 발생한 문제점 점검 및 수정
+- Q&A
