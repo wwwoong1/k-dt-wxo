@@ -18,6 +18,7 @@
 
 ### Catalog
 
+<<<<<<< HEAD
 |**분류**|**대표적인 기본 제공 Tool 및 연동 앱**|**주요 역할**|
 |-|-|-|
 |Productivity|Microsoft365, Slack, Box|이메일 발송, 일정 등록, <br>드라이브 내 파일 검색 및 업로드, <br>알림 발송|
@@ -25,6 +26,15 @@
 |Sales \& CRM (영업)|Salesforce, HubSpot|고객 데이터 조회 및 생성,<br>영업 기회 파이프라인 업데이트|
 |It \& Support (고객 지원)|ServiceNow, Zendesk, Jira|서비스 데스크 티켓 생성,<br>장애 상황 전파,<br>이슈 트래킹 상태 변경|
 |Procurement (조달/ERP)|SAP, AWS 관련 일부 관리 도구|구매 주문서(PO) 상태 확인,<br>벤더 정보 동기화|
+=======
+| **분류** | **대표적인 기본 제공 Tool 및 연동 앱** | **주요 역할** |
+| --- | --- | --- |
+| Productivity | Microsoft365, Slack, Box | 이메일 발송, 일정 등록, <br>드라이브 내 파일 검색 및 업로드, <br>알림 발송 |
+| HR (인사 관리) | Workday, SAP SuccessFactors, IBM 자체 HR 템플릿 | 직원 정보 조회, <br>휴가 신청 및 승인 프로세스, <br>채용 프로세스 자동화 |
+| Sales & CRM (영업) | Salesforce, HubSpot | 고객 데이터 조회 및 생성,<br>영업 기회 파이프라인 업데이트 |
+| It & Support (고객 지원) | ServiceNow, Zendesk, Jira | 서비스 데스크 티켓 생성,<br>장애 상황 전파,<br>이슈 트래킹 상태 변경 |
+| Procurement (조달/ERP) | SAP, AWS 관련 일부 관리 도구 | 구매 주문서(PO) 상태 확인,<br>벤더 정보 동기화 |
+>>>>>>> 6e5ce3c5e61b476555497a9f3970449f000d3fc5
 
 ### Local Instance
 
@@ -94,6 +104,7 @@
 
 1. 팀원들이 소통하는 다양한 비즈니스 커뮤니케이션 플랫폼 및 웹 환경에 Agent를 연결하는 영역. 각 항목의 화살표를 누르면 해당 채널의 API 키나 인증 정보를 입력할 수 있는 상세 창이 열림
 2. Channels
+<<<<<<< HEAD
 
    1. Home page
 
@@ -127,3 +138,36 @@
 
       Genesys의 오디오 커넥터를 활용해 에이전트를 실제 전화 통화 채널로 연결할 수 있도록 구성
 
+=======
+    1. Home page
+        
+        Watsonx Orchestrate의 메인 홈 화면에 이 Agent를 노출할지 여부를 결정
+        
+    2. Embedded Agent
+        
+        사내 인트라넷, 일반 웹사이트 등에 위젯 형태로 심을 수 있는 챗 창(Chat UI)를 커스텀하고 관련 스크립트 코드를 추출하는 채널
+        
+    3. Teams (Microsoft Teams)
+        
+        Teams 앱 내에 Agent를 봇으로 등록해 대화창에서 Agent와 대화하고 작업 명령을 할 수 있도록 연결
+        
+    4. WhatsApp with Twilio
+        
+        클라우드 통신 플랫폼인 Twilio를 매개로 글로벌 모바일 메신저인 WhatsApp과 Agent를 연동
+        
+    5. Facebook Messenger
+        
+        페이스북 메신저 채널을 활성화해 사용자들이 SNS 메신저 창을 통해 Agent와 대화할 수 있도록 지원
+        
+    6. Genesys Bot Connector
+        
+        글로벌 고객 센터 및 상담원 시스템 솔루션인 Genesys Cloud의 봇 커넥터와 연동하여, 고객 채널의 1차 응대 봇으로 Agent를 투입할 수 있게 함
+        
+    7. Slack
+        
+        사내 협업 툴인 Slack 환경을 선택하고 구성하여, Slack 워크스페이스 내에서 Agent가 작동할 수 있도록 연결
+        
+    8. Phone with Genesys Audio Connector
+        
+        Genesys의 오디오 커넥터를 활용해 에이전트를 실제 전화 통화 채널로 연결할 수 있도록 구성
+>>>>>>> 6e5ce3c5e61b476555497a9f3970449f000d3fc5
