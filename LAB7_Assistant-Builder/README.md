@@ -54,7 +54,7 @@ watsonx Orchestrate에 로그인합니다.
 
 ## 1-3. 새 Assistant 생성
 **Create assistant** 또는 **New Assistant** 버튼을 클릭하여 새 Assistant를 생성합니다.
-
+![create_assistant](./ai_assistant_img/img1.png)
 - **Assistant 이름 예시**
 ```
 
@@ -90,12 +90,13 @@ Create 단계 다음에는 **Personalize** 단계가 나타납니다.
 
 ## 3-1. 새 Action 생성하기
 **Actions** 메뉴로 이동한 뒤 **Create action** 또는 **New Action**을 선택합니다.
-
+![new_actions](./ai_assistant_img/img2.png)
+![create_actions](./ai_assistant_img/img3.png)
 이 실습에서는 사용자의 계좌 개설 요청을 처리하는 Action을 생성합니다.
 
 ## 3-2. Action명 작성하기
 새 Action 생성 화면에서 액션 이름을 입력합니다.
-
+![action_name](./ai_assistant_img/img4.png)
 - **액션명 예시**
 ```
 
@@ -111,9 +112,10 @@ Create 단계 다음에는 **Personalize** 단계가 나타납니다.
 **Customer starts with** 영역에서 Action을 트리거할 문구를 학습시킵니다.
 
 - **Preview** 버튼을 클릭합니다.  
-![alt text](./images/image034.png)
+![test_action1](./ai_assistant_img/img5.png)
 
 - 채팅창에 아래 문구를 입력합니다.
+
 ```
 
 계좌 개설
@@ -130,12 +132,13 @@ Create 단계 다음에는 **Personalize** 단계가 나타납니다.
 
 ## 4-2. Phrase 추가 학습
 - **Add example phrases** 입력란에 아래 문구를 추가하고 Enter를 누릅니다.
+![add phrases](./ai_assistant_img/img7.png)
 ```
 
 계좌 개설
 
 ```
-![alt text](./images/image036.png)
+
 
 - 새로운 문구가 Action을 트리거할 수 있도록 학습이 진행됩니다.  
 ![alt text](./images/image037.png)
@@ -169,12 +172,12 @@ Create 단계 다음에는 **Personalize** 단계가 나타납니다.
 
 ### Assistant says
 아래 문구를 입력합니다.
+![assistant_says](./ai_assistant_img/img8.png)
 
 ```text
 어떤 유형의 계좌를 개설하시겠습니까?
 ````
 
-![alt text](./images/image045.png)
 
 ### Define customer response
 
@@ -212,19 +215,20 @@ Create 단계 다음에는 **Personalize** 단계가 나타납니다.
 ### with conditions 설정
 
 * **with conditions** 을 선택합니다.
+![with columns](./ai_assistant_img/img9.png)
 
 * 첫 번째 Step인
   `어떤 유형의 계좌를 개설하시겠습니까?`
   에서 사용자가 **투자예금**을 선택한 조건을 설정합니다.
 
-* 조건 작성 시 **Action step variables** 를 선택합니다.
+* 조건 작성 시 **Action step variables** 를 선택합니다.<br>
   ![alt text](./images/image004.png)
 
 * `1. 어떤 유형의 계좌를 개설하시겠습니까?` 를 선택합니다.
-  ![alt text](./images/image005.png)
+  ![alt text](./ai_assistant_img/img10.png)
 
 * 조건 값으로 **투자예금**을 선택합니다.
-  ![alt text](./images/image006.png)
+  ![alt text](./ai_assistant_img/img11.png)
 
 * 설정이 완료되면 아래와 같이 조건이 구성됩니다.
   ![alt text](./images/image003.png)
@@ -237,12 +241,12 @@ Create 단계 다음에는 **Personalize** 단계가 나타납니다.
 당신의 투자 번호가 무엇입니까?
 ```
 
-![alt text](./images/image046.png)
+![alt text](./ai_assistant_img/img12.png)
 
 ### Define customer response
 
 **Define customer response > Number** 를 선택합니다.
-![alt text](./images/image007.png)
+![alt text](./ai_assistant_img/img13.png)
 
 사용자로부터 투자 번호를 입력받도록 설정합니다.
 ![alt text](./images/image008.png)
@@ -259,19 +263,21 @@ Create 단계 다음에는 **Personalize** 단계가 나타납니다.
 ## 5-3. 세 번째 Step 작성하기
 
 **New Step** 버튼을 클릭하여 세 번째 Step을 추가합니다.
+![alt text](./ai_assistant_img/img14.png)
 
 이제 사용자가 **투자예금**을 선택했고, **투자 번호**까지 입력한 경우 상담원에게 연결하는 과정을 만듭니다.
 
 ### with conditions 설정
 
 * **with conditions** 을 선택합니다.
+![with conditions](./ai_assistant_img/img15.png)
 
 * 첫 번째 조건으로
   `1. 어떤 유형의 계좌를 개설하시겠습니까?` = `투자예금`
   을 설정합니다.
 
 * 이어서 **Add condition +** 버튼을 클릭하여 두 번째 조건을 추가합니다.
-  ![alt text](./images/image011.png)
+  ![alt text](./ai_assistant_img/img16.png)
 
 * 필요한 조건 구성을 완료합니다.
   ![alt text](./images/image010.png)
@@ -284,20 +290,18 @@ Create 단계 다음에는 **Personalize** 단계가 나타납니다.
 귀하를 위해 새로운 투자 계좌를 개설할 수 있는 에이전트에게 연결해 드리겠습니다!
 ```
 
-![alt text](./images/image047.png)
+![alt text](./ai_assistant_img/img17.png)
 
 ### And then 설정
 
 **And then > Continue to next step > Connect to agent** 를 선택합니다.
-![alt text](./images/image012.png)
+![alt text](./ai_assistant_img/img18.png)
 
-* 기본값(Default)으로 두고 **Apply** 를 클릭합니다.
-  ![alt text](./images/image013.png)
 
 ### Message to agent 설정
 
 상담원에게 전달할 메시지를 작성합니다.
-
+![message to agent](./ai_assistant_img/img19.png)
 예시:
 
 ```text
@@ -352,28 +356,28 @@ Agent 연결 설정이 완료되면 아래와 같이 구성됩니다.
 ### with conditions 설정
 
 * **with conditions** 을 선택합니다.
-
+![with columns](./ai_assistant_img/img21.png)
 * 첫 번째 Step인
   `어떤 유형의 계좌를 개설하시겠습니까?`
   의 결과를 조건으로 사용합니다.
 
-* **Action step variables** 를 선택합니다.
+* **Action step variables** 를 선택합니다.<br>
   ![alt text](./images/image004.png)
 
-* `1. 어떤 유형의 계좌를 개설하시겠습니까?` 를 선택합니다.
+* `1. 어떤 유형의 계좌를 개설하시겠습니까?` 를 선택합니다.<br>
   ![alt text](./images/image005.png)
 
-* 조건 유형으로 **is any of** 를 선택합니다.
+* 조건 유형으로 **is any of** 를 선택합니다.<br>
   ![alt text](./images/image016.png)
 
-* 조건 값으로 아래 두 개를 선택합니다.
+* 조건 값으로 아래 두 개를 선택합니다.<br>
 
   * 당좌예금
   * 저축예금
 
-![alt text](./images/image017.png)
+  ![alt text](./images/image017.png)
 
-* 설정 완료 화면은 아래와 같습니다.
+* 설정 완료 화면은 아래와 같습니다.<br>
   ![alt text](./images/image018.png)
 
 ### Assistant says
@@ -381,7 +385,7 @@ Agent 연결 설정이 완료되면 아래와 같이 구성됩니다.
 이 Step에서는 사용자가 선택한 계좌 유형을 메시지에 포함하여 안내합니다.
 
 * 메시지 작성 화면에서 **fx** 버튼을 클릭합니다.
-
+![function](./ai_assistant_img/img24.png)
 * 팝업창에서 **Action step variables** 를 선택합니다.
   ![alt text](./images/image019.png)
 
@@ -439,7 +443,7 @@ Agent 연결 설정이 완료되면 아래와 같이 구성됩니다.
 ### And then 설정
 
 **And then > End the action** 을 선택합니다.
-![alt text](./images/image029.png)
+![alt text](./ai_assistant_img/img27.png)
 
 이 Step의 최종 종료 설정이 완료되었습니다.
 ![alt text](./images/image030.png)
