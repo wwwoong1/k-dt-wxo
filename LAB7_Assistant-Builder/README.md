@@ -172,12 +172,10 @@ Create 단계 다음에는 **Personalize** 단계가 나타납니다.
 
 ### Assistant says
 아래 문구를 입력합니다.
-![assistant_says](./ai_assistant_img/img8.png)
-
 ```text
 어떤 유형의 계좌를 개설하시겠습니까?
 ````
-
+![assistant_says](./ai_assistant_img/img8.png)
 
 ### Define customer response
 
@@ -222,7 +220,7 @@ Create 단계 다음에는 **Personalize** 단계가 나타납니다.
   에서 사용자가 **투자예금**을 선택한 조건을 설정합니다.
 
 * 조건 작성 시 **Action step variables** 를 선택합니다.<br>
-  ![alt text](./images/image004.png)
+  ![alt text](./ai_assistant_img/img.png)
 
 * `1. 어떤 유형의 계좌를 개설하시겠습니까?` 를 선택합니다.
   ![alt text](./ai_assistant_img/img10.png)
@@ -249,11 +247,11 @@ Create 단계 다음에는 **Personalize** 단계가 나타납니다.
 ![alt text](./ai_assistant_img/img13.png)
 
 사용자로부터 투자 번호를 입력받도록 설정합니다.
-![alt text](./images/image008.png)
+![alt text](./images/image008.png)<br>
 
 ### Preview 테스트
 
-**Preview** 버튼을 클릭하여 동작을 확인합니다.
+**Preview** 버튼을 클릭하여 동작을 확인합니다.<br>
 ![alt text](./images/image009.png)
 
 두 번째 Step이 완료되었습니다.
@@ -277,9 +275,9 @@ Create 단계 다음에는 **Personalize** 단계가 나타납니다.
   을 설정합니다.
 
 * 이어서 **Add condition +** 버튼을 클릭하여 두 번째 조건을 추가합니다.
-  ![alt text](./ai_assistant_img/img16.png)
+  ![alt text](./ai_assistant_img/img16.png)<br>
 
-* 필요한 조건 구성을 완료합니다.
+* 필요한 조건 구성을 완료합니다.<br>
   ![alt text](./images/image010.png)
 
 ### Assistant says
@@ -327,7 +325,7 @@ Action step variables > 2. 당신의 투자 번호가 무엇입니까?
 입니다
 ```
 
-![alt text](./images/image043.png)
+![alt text](./images/image043.png)<br>
 
 최종적으로 상담원에게 전달되는 메시지는 다음과 같은 형태가 됩니다.
 
@@ -335,13 +333,13 @@ Action step variables > 2. 당신의 투자 번호가 무엇입니까?
 고객이 원하는 투자 번호는 [사용자 입력값]입니다
 ```
 
-Agent 연결 설정이 완료되면 아래와 같이 구성됩니다.
-![alt text](./images/image044.png)
+Agent 연결 설정이 완료되면 아래와 같이 구성됩니다.<br>
+![alt text](./images/image044.png)<br>
 
 ### Preview 테스트
 
-**Preview** 버튼을 클릭하여 동작을 확인합니다.
-![alt text](./images/image015.png)
+**Preview** 버튼을 클릭하여 동작을 확인합니다.<br>
+![alt text](./images/image015.png)<br>
 
 세 번째 Step이 완료되었습니다.
 
@@ -356,29 +354,29 @@ Agent 연결 설정이 완료되면 아래와 같이 구성됩니다.
 ### with conditions 설정
 
 * **with conditions** 을 선택합니다.
-![with columns](./ai_assistant_img/img21.png)
+![with columns](./ai_assistant_img/img21.png)<br>
 * 첫 번째 Step인
   `어떤 유형의 계좌를 개설하시겠습니까?`
   의 결과를 조건으로 사용합니다.
 
 * **Action step variables** 를 선택합니다.<br>
-  ![alt text](./images/image004.png)
+  ![alt text](./images/image004.png)<br>
 
 * `1. 어떤 유형의 계좌를 개설하시겠습니까?` 를 선택합니다.<br>
-  ![alt text](./images/image005.png)
+  ![alt text](./images/image005.png)<br>
 
 * 조건 유형으로 **is any of** 를 선택합니다.<br>
-  ![alt text](./images/image016.png)
+  ![alt text](./images/image016.png)<br>
 
 * 조건 값으로 아래 두 개를 선택합니다.<br>
 
   * 당좌예금
   * 저축예금
 
-  ![alt text](./images/image017.png)
+  ![alt text](./images/image017.png)<br>
 
 * 설정 완료 화면은 아래와 같습니다.<br>
-  ![alt text](./images/image018.png)
+  ![alt text](./images/image018.png)<br>
 
 ### Assistant says
 
@@ -392,8 +390,8 @@ Agent 연결 설정이 완료되면 아래와 같이 구성됩니다.
 * 첫 번째 Step
   `어떤 유형의 계좌를 개설하시겠습니까?`
   를 선택합니다.
-  ![alt text](./images/image020.png)
-  ![alt text](./images/image021.png)
+  ![alt text](./images/image020.png)<br>
+  ![alt text](./images/image021.png)<br>
 
 * 이어서 아래 텍스트를 입력합니다.
 
@@ -401,14 +399,14 @@ Agent 연결 설정이 완료되면 아래와 같이 구성됩니다.
   계좌 개설을 위해
   ```
 
-  ![alt text](./images/image022.png)
+  ![alt text](./images/image022.png)<br>
 
 ### 링크 삽입
 
 포털 주소 링크를 삽입합니다.
 
 * 링크 아이콘을 클릭합니다.
-  ![alt text](./images/image023.png)
+  ![alt text](./images/image023.png)<br>
 
 * 포털 시스템의 계좌 개설 주소를 입력합니다. 예:
 
@@ -416,10 +414,10 @@ Agent 연결 설정이 완료되면 아래와 같이 구성됩니다.
   www.ibm-bank.com/open-a-new-account?account_type=
   ```
 
-  ![alt text](./images/image024.png)
+  ![alt text](./images/image024.png)<br>
 
 * URL 뒤에 변수 값을 전달하기 위해 `$` 를 입력하여 변수 선택 창을 엽니다.
-  ![alt text](./images/image025.png)
+  ![alt text](./images/image025.png)<br>
 
 * 아래 변수를 선택합니다.
 
@@ -427,10 +425,10 @@ Agent 연결 설정이 완료되면 아래와 같이 구성됩니다.
   Action step variables > 1. 어떤 유형의 계좌를 개설하시겠습니까?
   ```
 
-  ![alt text](./images/image026.png)
+  ![alt text](./images/image026.png)<br>
 
-* **Apply** 를 클릭하여 설정을 적용합니다.
-  ![alt text](./images/image027.png)
+* **Apply** 를 클릭하여 설정을 적용합니다.<br>
+  ![alt text](./images/image027.png)<br>
 
 * 마지막으로 아래 안내 문구를 입력합니다.
 
@@ -438,20 +436,20 @@ Agent 연결 설정이 완료되면 아래와 같이 구성됩니다.
   에 방문해 주세요.
   ```
 
-  ![alt text](./images/image028.png)
+  ![alt text](./images/image028.png)<br>
 
 ### And then 설정
 
-**And then > End the action** 을 선택합니다.
-![alt text](./ai_assistant_img/img27.png)
+**And then > End the action** 을 선택합니다.<br>
+![alt text](./ai_assistant_img/img27.png)<br>
 
-이 Step의 최종 종료 설정이 완료되었습니다.
-![alt text](./images/image030.png)
+이 Step의 최종 종료 설정이 완료되었습니다.<br>
+![alt text](./images/image030.png)<br>
 
 ### Preview 테스트
 
-**Preview** 버튼을 클릭하여 동작을 확인합니다.
-![alt text](./images/image015.png)
+**Preview** 버튼을 클릭하여 동작을 확인합니다.<br>
+![alt text](./images/image015.png)<br>
 
 네 번째 Step이 완료되었습니다.
 
@@ -509,8 +507,8 @@ Agent 연결 설정이 완료되면 아래와 같이 구성됩니다.
 # 7. 완료된 화면
 
 최종 완료된 화면입니다.
-총 4개의 Step으로 구성되며, 인식이 부족한 문구는 Phrase를 추가하여 계속 학습시킬 수 있습니다.
-![alt text](./images/image048.png)
+총 4개의 Step으로 구성되며, 인식이 부족한 문구는 Phrase를 추가하여 계속 학습시킬 수 있습니다.<br>
+![alt text](./images/image048.png)<br>
 
 ---
 
