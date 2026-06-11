@@ -244,7 +244,7 @@ Create 단계 다음에는 **Personalize** 단계가 나타납니다.
 ### Define customer response
 
 **Define customer response > Number** 를 선택합니다.
-![alt text](./ai_assistant_img/img13.png)
+![alt text](./ai_assistant_img/img13.png)<br>
 
 사용자로부터 투자 번호를 입력받도록 설정합니다.
 ![alt text](./images/image008.png)<br>
