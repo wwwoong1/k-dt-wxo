@@ -1,0 +1,26 @@
+# Virtual Environments
+.venv/
+**/ .venv/
+venv/
+ENV/
+env/
+
+# Lab Folders
+LAB4_Agent/
+LAB6_banking-backoffice/
+
+# Python Cache and Temporary Files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Databases
+*.db
+*.sqlite3
+
+# Environment Variables
+.env
+.env.*
+!env.example
