@@ -2,7 +2,7 @@
 
 ## 사전 준비사항 
 - AI Assistant 구축 (Account Management Assistant)
-- ![Create Assistant 바로가기](https://github.com/wwwoong1/k-dt-wxo/blob/main/LAB6_banking-backoffice/AI_Assistant/README.md)
+- ![Create Assistant 바로가기](https://github.com/wwwoong1/k-dt-wxo/blob/main/new_banking/AI_Assistant/README.md)
 
 ## 목차 <!-- omit in toc -->
 
