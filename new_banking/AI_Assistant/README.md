@@ -59,7 +59,7 @@ watsonx Orchestrate에 로그인합니다.
 - **Assistant 이름 예시**
 ```
 
-계좌관리 어시스턴트
+<사용자명>_Account_Management_Assistant
 
 ```
 
@@ -543,49 +543,3 @@ Agent 연결 설정이 완료되면 아래와 같이 구성됩니다.<br>
 
 **다음으로는 Agent를 생성하여 AI Assistant를 호출해보겠습니다.**
 
-# 9. AI Assistant를 Create Agent에서 호출하는 방법
-
-
-![return build](./call_assistant/img7.png)
-Create Agent 화면으로 돌아가기 위해 햄버거 버튼을 클릭해 build 메뉴로 이동합니다.
-
-![click create agent](./call_assistant/img8.png)
-Create Agent 버튼을 클릭합니다.
-
-![create agent](./call_assistant/img6.png)
-
-Name과 Description을 아래와 같이 입력합니다.
-
-```
-    name : <사용자이름>_Create_Account_Agent
-```
-```
-    Description : 
-        AI Assistant를 바탕으로 사용자 요청에 따라 계좌 개설을 돕는 Agent 입니다.
-```
-
-
-![Add agent](./call_assistant/img1.png)
-
-
-![import agent](./call_assistant/img2.png)
-
-![click menu](./call_assistant/img3.png)
-
-![Selet Assistant](./call_assistant/img4.png)
-1. 사용할 AI Assistant 선택
-2. Display name은 Assistant 선택 시, 자동 매핑
-3. Description에 해당 AI Assistant에 대한 간략한 설명 입력
-
-```
-Description :
-    계좌 개설 요청이 들어올 경우, 사용자가 원하는 개설 계좌 유형에 따라 도움을 제공하는 에이전트입니다. 
-    이 에이전트는 사용자가 계좌 개설을 원할 경우, 개설할 수 있는 계좌 선택지를 제공하며, 선택지에 따라 상담원에게 연결하는 역할을 합니다.
-```
-
-![Behavior mockup](./call_assistant/img5.png)
-
-```
-    Instructions : 
-        사용자가 계좌 개설을 원할 경우 Account management Assistant를 호출해 사용자의 요구에 응답합니다.
-```

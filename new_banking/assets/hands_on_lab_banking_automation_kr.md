@@ -1,5 +1,9 @@
 # 인텔리전트 에이전트를 활용한 뱅킹 혁신 - 실습 <!-- omit in toc -->
 
+## 사전 준비사항 
+- AI Assistant 구축 (Account Management Assistant)
+- ![Create Assistant 바로가기](https://github.com/wwwoong1/k-dt-wxo/blob/main/LAB6_banking-backoffice/AI_Assistant/README.md)
+
 ## 목차 <!-- omit in toc -->
 
 - [🔍 소개](#-소개)
@@ -659,6 +663,11 @@ AI 기반 시스템에서는:
     - 은행 서비스에 대해 알아보는 것이 핵심 의도인 경우
     - 예시 표현: "새 저축계좌", "대출 옵션", "신용카드 혜택"
     
+    3. 다음과 같은 경우 Account Management Anget로 라우팅:
+    - 고객이 계좌 개설을 문의할 경우
+    - 고객이 개설 가능한 계좌를 문의할 경우
+    - 예시 표현: "계좌 개설", "개설 계좌 종류"
+
     응답 형식:
     - 초기 인사:
     "Welcome to GFM Bank. I'm your virtual branch assistant. How may I help you today?"
@@ -721,8 +730,31 @@ AI 기반 시스템에서는:
   ![Select Agents](./bank_orch_ag_imgs/i12.png)
   ![Add to Agent](./bank_orch_ag_imgs/i13.png)
 
+#### AI Assistant(예: Account Management Agent) 추가
+
+  ![Add agent](./call_assistant/img1.png)
+
+
+  ![import agent](./call_assistant/img2.png)
+
+  ![click menu](./call_assistant/img3.png)
+
+  ![Selet Assistant](./call_assistant/img4.png)
+1. 사용할 AI Assistant 선택
+2. Display name은 Assistant 선택 시, 자동 매핑
+3. Description에 해당 AI Assistant에 대한 간략한 설명 입력
+
+```
+Description :
+    계좌 개설 요청이 들어올 경우, 사용자가 원하는 개설 계좌 유형에 따라 도움을 제공하는 에이전트입니다. 
+    이 에이전트는 사용자가 계좌 개설을 원할 경우, 개설할 수 있는 계좌 선택지를 제공하며, 선택지에 따라 상담원에게 연결하는 역할을 합니다.
+```
+
+
+
 - **Behavior** 섹션에서 **Instructions**에 다음 내용을 추가합니다.   
-  - **주의사항** : 본인이 만든 에이전트 명으로 변경해 주세요.(예:Seongman_TellerAgent, Seongman_ProductInformationAgent, Seongman_BackOfficeAgent )
+  - **주의사항** : 본인이 만든 에이전트 명으로 변경해 주세요.(예:Seongman_TellerAgent, Seongman_ProductInformationAgent, Seongman_BackOfficeAgent,
+  Seongman_Account_Management_Agent)
   ```text
   응답 지침:  
   - 은행 가상 지점에서 모든 초기 고객 문의에 응답한다.  
@@ -754,6 +786,11 @@ AI 기반 시스템에서는:
   - 고객이 은행 상품, 금리, 신규 서비스에 대해 문의하면 상품 전문 상담원으로 연결한다.  
   - 응답: "고객님의 [특정 상품/서비스]에 대한 정보를 제공할 수 있는 은행 상품 전문 상담원으로 연결해드리겠습니다."  
   - 주요 트리거: "신규 계좌," "금리," "대출," "신용카드," "주택담보대출," "투자 옵션"  
+
+  계좌 개설(계좌 개설 서비스, Seongman_Account_managementAssistant)
+  :
+  - 고객이 계좌 개설과 관련된 서비스에 대해 문의하면 계좌 개설 에이전트를 호출해 처리한다.
+  - 주요 트리거 : "계좌", "개설"
 
   모호한 요청:  
   - 고객 의도가 불분명할 경우, 카테고리화된 선택지를 제공하여 적절한 서비스를 선택하도록 안내한다.  
@@ -849,11 +886,15 @@ AI 기반 시스템에서는:
   ```
 
   ![alt text](./images/i37-1.png)
+  ```
+    계좌 개설을 하고 싶습니다.
+  ```
+
 
 ## 🎉 축하합니다! 실습 완료!
 
 **watsonx Orchestrate**를 사용하여 GFM Bank를 위한 Agentic AI 솔루션을 성공적으로 만들었습니다!  
-이제 시스템은 고객 문의 처리, 상품 정보 제공, 거래 처리, 대출 한도 요청 및 수수료 환불 관리 등을 인간 개입 없이 수행할 수 있습니다.
+이제 시스템은 고객 문의 처리, 상품 정보 제공, 거래 처리, 대출 한도 요청 및 수수료 환불 관리, 계좌 개설 등을 인간 개입 없이 수행할 수 있습니다.
 
 이 실습은 AI 에이전트가 은행 업무를 혁신할 수 있는 방법을 보여줍니다:
 - 고객 대기 시간 감소
