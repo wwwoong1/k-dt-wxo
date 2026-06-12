@@ -1,5 +1,13 @@
 # AI Assistant를 Create Agent에서 호출하는 방법
 
+![create agent](img/img6.png)
+```
+    name : test_import_Assistant
+```
+```
+    Description : 
+        사전 정의한 AI Assistant를 Create Agent 화면에서 Import 하기 위한 테스트 입니다.
+```
 
 ## 1. Add Agent 클릭
 ![Add agent](img/img1.png)
