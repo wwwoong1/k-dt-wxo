@@ -1,4 +1,6 @@
 # 🏦 에이전트 AI를 활용한 은행 자동화
+## [실습자료](./assets/hands_on_lab_banking_automation_kr.md)
+- [실습자료](./assets/hands_on_lab_banking_automation_kr.md)
 
 ![](banking-automation-banner.png)
 
