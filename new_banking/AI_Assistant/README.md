@@ -313,9 +313,9 @@ Create 단계 다음에는 **Personalize** 단계가 나타납니다.
 고객이 원하는 투자 번호는
 ```
 
-![alt text](./assistant_image/image040.png)
+![alt text](./assistant_image/image040.png)<br>
 
-이어서 사용자 입력값을 변수로 전달하기 위해 `$` 를 입력하여 변수를 선택합니다.
+이어서 사용자 입력값을 변수로 전달하기 위해 `$` 를 입력하여 변수를 선택합니다.<br>
 ![alt text](./assistant_image/image041.png)
 
 다음 경로를 선택합니다.
