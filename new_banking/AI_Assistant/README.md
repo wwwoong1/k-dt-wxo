@@ -306,7 +306,7 @@ Create 단계 다음에는 **Personalize** 단계가 나타납니다.
 ### Message to agent 설정
 
 상담원에게 전달할 메시지를 작성합니다.
-![message to agent](./ai_assistant_img/img19.png)
+![message to agent](./ai_assistant_img/img19.png) <br>
 예시:
 
 ```text
