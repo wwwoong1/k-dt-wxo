@@ -392,7 +392,7 @@ Agent 연결 설정이 완료되면 아래와 같이 구성됩니다.<br>
 * 메시지 작성 화면에서 **fx** 버튼을 클릭합니다.
 ![function](./ai_assistant_img/img24.png)
 * 팝업창에서 **Action step variables** 를 선택합니다.
-  ![alt text](./assistant_image/image019.png)
+  ![alt text](./assistant_image/image019.png)<br>
 
 * 첫 번째 Step
   `어떤 유형의 계좌를 개설하시겠습니까?`
