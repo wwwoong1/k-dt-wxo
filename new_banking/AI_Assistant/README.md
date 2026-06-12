@@ -536,7 +536,7 @@ Agent 연결 설정이 완료되면 아래와 같이 구성됩니다.<br>
 ![publish menu3](./call_assistant/publish3.png)
 **Publish 버튼을 눌러 Publish version create 창을 엽니다.**
 
-![publish menu4](./call_assistant/publish4.png)
+![publish menu4](./call_assistant/publish4.png)<br>
 **새로운 버전에 대한 변경사항을 기입하고, Publish an environment 드롭다운에서 Live를 선택한 뒤, Publish 버튼을 클릭합니다.**
 
 **이제 Create Agent 단계에서 지금 생성된 AI Assistant를 사용할 수 있게 되었습니다.**<br>
